@@ -1,3 +1,3 @@
 # advent-of-code
 
-My Advent of Code solutions.
+My personal solutions to the annual [Advent of Code](https://adventofcode.com/) puzzles.

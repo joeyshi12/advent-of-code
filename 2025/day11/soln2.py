@@ -16,7 +16,7 @@ def path_count(source: str,
             return 1
         if u in memo:
             return memo[u]
-        memo[u] = sum(dfs(v) for v in graph.get(u, []))
+        memo[u] = sum(dfs(v) for v in graph[u]) if u in graph else 0
         return memo[u]
     return dfs(source)
 
